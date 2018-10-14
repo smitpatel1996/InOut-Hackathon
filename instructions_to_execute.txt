@@ -1,0 +1,10 @@
+1. Install all the required components
+pip3 install --user -r requirements_cpu.txt
+2. Clone the repository
+git clone --depth=1 https://github.com/pranavsr97/inout_hack
+3. Run the hand histogram & caliberate the surroundings
+python3 set_hand_hist.py
+4. Load images
+python3 load_images.py
+5. Use the model & predict the signs
+python3 recognize_gesture.py
